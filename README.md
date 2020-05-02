@@ -6,7 +6,7 @@
         <h3>Example _ViewImports.cshtml:</h3>
         <pre>
 @namespace DefaultNamespace.Pages
-@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers  
  
 @removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers
 @addTagHelper CustomTagHelpers.CustomInputTagHelper, CustomTagHelpers
