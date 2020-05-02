@@ -11,7 +11,7 @@ namespace CustomTagHelpers
     /// <example>
     /// Example _ViewImports.cshtml:
     ///     @namespace DefaultNamespace.Pages
-    ///     @addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+    ///     @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
     ///     @removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers
     ///     @addTagHelper CustomTagHelpers.CustomSelectTagHelper, CustomTagHelpers
     ///
