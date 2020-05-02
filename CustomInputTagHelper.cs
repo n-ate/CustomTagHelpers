@@ -16,7 +16,7 @@ namespace CustomTagHelpers
     ///     @addTagHelper CustomTagHelpers.CustomInputTagHelper, CustomTagHelpers
     ///     
     /// Example Markup Usage:
-    ///     &lt;input asp-for="Property" class="form-control" readonly />
+    ///     &lt;input asp-for="Property" class="form-control" />
     /// </example>
     [HtmlTargetElement("input", Attributes = FOR_ATTRIBUTE_NAME, TagStructure = TagStructure.WithoutEndTag)]
     public class CustomInputTagHelper : InputTagHelper
