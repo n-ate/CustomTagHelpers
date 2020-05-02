@@ -6,14 +6,14 @@
         <h3>Example _ViewImports.cshtml:</h3>
         <pre>
 @namespace DefaultNamespace.Pages
-@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
-
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers</pre>
+        <pre>
 @removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers
-@addTagHelper CustomTagHelpers.CustomInputTagHelper, CustomTagHelpers
-
+@addTagHelper CustomTagHelpers.CustomInputTagHelper, CustomTagHelpers</pre>
+        <pre>
 @removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers
-@addTagHelper CustomTagHelpers.CustomTextAreaTagHelper, CustomTagHelpers
-
+@addTagHelper CustomTagHelpers.CustomTextAreaTagHelper, CustomTagHelpers</pre>
+        <pre>
 @removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers
 @addTagHelper CustomTagHelpers.CustomSelectTagHelper, CustomTagHelpers</pre>
     </li>
