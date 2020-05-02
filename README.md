@@ -4,26 +4,17 @@
 <ul>
     <li>
         <h3>Example _ViewImports.cshtml:</h3>
-        <code>
-            @namespace DefaultNamespace.Pages
-        <code>
-        <br />
-        </code>
-            @addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
-        <code>
-        <br />
-        </code>
-            @removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers
-        <code>
-        <br />
-        </code>
-            @addTagHelper CustomTagHelpers.CustomInputTagHelper, CustomTagHelpers
-        </code>
+        <pre>
+    @namespace DefaultNamespace.Pages
+    @addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+    @removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers
+    @addTagHelper CustomTagHelpers.CustomInputTagHelper, CustomTagHelpers
+        </pre>
     </li>
     <li>
         <h3>Example Markup Usage:</h3>
-        <code>
-            &lt;input asp-for="Property" class="form-control" readonly />
-        </code>
+        <pre>
+    &lt;input asp-for="Property" class="form-control" readonly />
+        </pre>
     </li>
 </ul>
