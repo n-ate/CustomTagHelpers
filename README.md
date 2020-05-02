@@ -1,6 +1,6 @@
 # CustomTagHelpers
 
-<em>Extends the existing asp-for InputTagHelper to support the description value of the DisplayAttribute.</em><br />
+<em>Extends the existing</em> "asp-for" <strong>InputTagHelper</strong> <em>to support the description value of the</em> <strong>DisplayAttribute</strong><em>.</em><br />
 <ul>
     <li>
         <h3>Example _ViewImports.cshtml:</h3>
