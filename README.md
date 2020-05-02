@@ -5,9 +5,18 @@
     <li>
         <h3>Example _ViewImports.cshtml:</h3>
         <code>
-            @namespace DefaultNamespace.Pages<br />
-            @addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers<br />
-            @removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers<br />
+            @namespace DefaultNamespace.Pages
+        <code>
+        <br />
+        </code>
+            @addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+        <code>
+        <br />
+        </code>
+            @removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers
+        <code>
+        <br />
+        </code>
             @addTagHelper CustomTagHelpers.CustomInputTagHelper, CustomTagHelpers
         </code>
     </li>
